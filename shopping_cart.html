@@ -387,53 +387,113 @@
         </div>
     </div>
     <section>
-        <div class="order_settings">
-            <div class="shipping_adress container">
-                <h4>01. SHIPPING ADRESS</h4>
-                <div class="shipping_adress_box">
-                    <div class="shipping_adress_left">
-                        <div class="shipping_adress_left_up">
-                            <p class="text_up">CHECK AS A GUEST OR REGISTER</p>
-                            <p class="text_bot">Register with us for future convenience</p>
+        <div class="shopping_cart container">
+            <div class="shopping_cart_det">
+                <div class="shopping_cart_det_left">
+                    <p>PRODUCT DETAILS</p>
+                </div>
+                <div class="shopping_cart_det_right">
+                    <p>UNITE PRICE</p>
+                    <p>QANTITY</p>
+                    <p>SHIPPING</p>
+                    <p>SUBTOTAL</p>
+                    <p>ACTION</p>
+                </div>
+            </div>
+            <div class="shopping_cart_det prod_one">
+                <div class="shopping_cart_det_left">
+                    <a href="single_page.html"><img src="img/shopping_cart/prod_one.png" alt=""></a>
+                    <div class="shopping_cart_det_left_text">
+                        <div class="shopping_cart_det_left_text_up">
+                            <p>MANGO PEOPLE T-SHIRT</p>
                         </div>
-                        <div class="shipping_adress_left_bot">
-                            <p class="checkout_up"><input name="checkout" type="radio"> CHECKOUT AS GUEST</p>
-                            <p><input name="checkout" type="radio"> REGISTER</p>
-                            <p class="text_up">REGISTER AND SAVE TIME!</p>
-                            <p class="text_bot">Register with us for future convenience</p>
-                        </div>
-                        <div class="shipping_adress_left_button">
-                            <p class="text"><i class="icon icon-angle-double-right"></i>Fast and easy checkout</p>
-                            <p class="text"><i class="icon icon-angle-double-right"></i>Easy access to your order
-                                history and status</p>
-                            <button href="#" class="continue_button">CONTINUE</button>
-                        </div>
-                    </div>
-                    <div class="shipping_adress_right">
-                        <div class="shipping_adress_right_up">
-                            <p class="text_up">ALREADY REGISTRED?</p>
-                            <p class="text_bot">Register with us for future convenience</p>
-                        </div>
-                        <div class="shipping_adress_right_bot">
-                            <form action="#">
-                                <p class="text_up">EMAIL ADRESS<span>*</span></p>
-                                <input type="email" placeholder="Email">
-                                <p class="text_up">PASSWORD<span>*</span></p>
-                                <input type="password" placeholder="Password">
-                                <p class="text_req">* Required Fileds</p>
-                                <div class="shipping_adress_right_bot_button">
-                                    <button href="#" class="log_in">LOG IN</button>
-                                    <a href="#" class="forgot_password">Forgot Password?</a>
-                                </div>
-                            </form>
+                        <div class="shopping_cart_det_left_text_bot">
+                            <P>Color: <span>Red</span></P>
+                            <P>Size: <span>XL</span></P>
                         </div>
                     </div>
                 </div>
-                <h4 class="top">02. BILLING INFORMATION</h4>
-                <h4 class="top">03. SHIPPING INFORMATION</h4>
-                <h4 class="top">04. SHIPPING METHOD</h4>
-                <h4 class="top">05. PAYMENT METHOD</h4>
-                <h4 class="top_bot">06. ORDER REVIEW</h4>
+                <div class="shopping_cart_det_right">
+                    <p>132$</p>
+                    <input type="text" placeholder="1">
+                    <p>FREE</p>
+                    <p>300$</p>
+                    <a href="#"><i class="fas fa-minus-circle"></i></a>
+                </div>
+            </div>
+            <div class="shopping_cart_det prod_one">
+                <div class="shopping_cart_det_left">
+                    <a href="single_page.html"><img src="img/shopping_cart/prod_two.png" alt=""></a>
+                    <div class="shopping_cart_det_left_text">
+                        <div class="shopping_cart_det_left_text_up">
+                            <p>MANGO PEOPLE T-SHIRT</p>
+                        </div>
+                        <div class="shopping_cart_det_left_text_bot">
+                            <P>Color: <span>Red</span></P>
+                            <P>Size: <span>XL</span></P>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping_cart_det_right">
+                    <p>132$</p>
+                    <input type="text" placeholder="1">
+                    <p>FREE</p>
+                    <p>300$</p>
+                    <a href="#"><i class="fas fa-minus-circle"></i></a>
+                </div>
+            </div>
+            <div class="shopping_cart_det prod_one">
+                <div class="shopping_cart_det_left">
+                    <a href="single_page.html"><img src="img/shopping_cart/prod_three.png" alt=""></a>
+                    <div class="shopping_cart_det_left_text">
+                        <div class="shopping_cart_det_left_text_up">
+                            <p>MANGO PEOPLE T-SHIRT</p>
+                        </div>
+                        <div class="shopping_cart_det_left_text_bot">
+                            <P>Color: <span>Red</span></P>
+                            <P>Size: <span>XL</span></P>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping_cart_det_right">
+                    <p>132$</p>
+                    <input type="text" placeholder="1">
+                    <p>FREE</p>
+                    <p>300$</p>
+                    <a href="#"><i class="fas fa-minus-circle"></i></a>
+                </div>
+            </div>
+            <div class="shopping_cart_buttons">
+                <button>CLEAR SHOPPING CART</button>
+                <button>CONTINUE SHOPPING</button>
+            </div>
+            <div class="shopping_cart_order_details">
+                <div class="shopping_cart_order_details_box">
+                    <p>SHIPPING ADRESS</p>
+                    <select name="country" id="country">
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="USA">USA</option>
+                        <option value="Russia">Russia</option>
+                        <option value="UK">UK</option>
+                        <option value="Belarus">Belarus</option>
+                    </select>
+                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="Postcode/Zip">
+                    <button class="shopping_cart_order_details_button">GET A QUOTE</button>
+                </div>
+                <div class="shopping_cart_order_details_box">
+                    <p>COUPON DISCOUNT</p>
+                    <p class="desc">Enter your coupon code if you have one</p>
+                    <input type="text" placeholder="Coupon code">
+                    <button class="shopping_cart_order_details_button">APPLY COUPON</button>
+                </div>
+                <div class="proc_check">
+                    <div class="proc_check_text">
+                        <p class="up">SUB TOTAL &nbsp; $900</p>
+                        <p class="bot">GRAND TOTAL &nbsp; <span>$900</span></p>
+                    </div>
+                    <a href="checkout.html" class="proc_check_button">PROCEED TO CHECKOUT</a>
+                </div>
             </div>
         </div>
     </section>
