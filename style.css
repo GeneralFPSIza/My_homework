@@ -1227,9 +1227,11 @@ details[open] .header_form_summary::after {
   font-weight: 700;
   text-transform: uppercase;
   outline: none;
+  transition: all 1s;
 }
 
 .continue_button:hover {
+  transform: rotate(360deg);
   border: 1px solid #f16d7f;
   background-color: #f16d7f;
   color: #ffffff;
@@ -1296,9 +1298,11 @@ details[open] .header_form_summary::after {
   font-weight: 700;
   text-transform: uppercase;
   outline: none;
+  transition: all 0.3s;
 }
 
 .log_in:hover {
+  transform: skew(5deg, 15deg);
   border: 1px solid #f16d7f;
   background-color: #f16d7f;
   color: #ffffff;
@@ -1314,6 +1318,7 @@ details[open] .header_form_summary::after {
   letter-spacing: normal;
   text-align: left;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .forgot_password:hover {
@@ -1321,16 +1326,34 @@ details[open] .header_form_summary::after {
 }
 
 .shipping_adress .top {
-  padding: 30px 0px 30px 0px;
   font-weight: bold;
-  border-top: 1px solid #000;
 }
 
-.shipping_adress .top_bot {
-  padding: 30px 0px 30px 0px;
-  font-weight: bold;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+.checkout_list {
+  list-style-type: none;
+  margin-bottom: 93px;
+}
+.checkout_list details {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 33px;
+  padding-bottom: 31px;
+}
+.checkout_list h4 {
+  font-size: 16px;
+}
+.checkout_list h4:hover {
+  transition: 0.5s;
+  transform: scale(1.2) translateX(55px);
+  color: #f16d7f;
+}
+
+.details_header {
+  list-style-type: none;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  outline: none;
 }
 
 /* single_page */
